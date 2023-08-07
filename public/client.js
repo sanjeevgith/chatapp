@@ -37,7 +37,7 @@ function appendMessage(msg, type) {
         <p>${msg.message}</p>
     `
     mainDiv.innerHTML = markup
-    messageArea.appendChild(        )
+    messageArea.appendChild(mainDiv)
 }
 
 // Recieve messages 
